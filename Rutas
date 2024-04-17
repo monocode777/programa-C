@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+    char  Norte,Sur,Oriente,Occidente;
+    
+    char B10,B11,B3,B6;
+    
+    printf("BIENVENIDO A BORDO");
+    printf("ingresa a que zona quieres dirigirte:  Norte, Sur, Oriente, Occidente?  ");
+    scanf("%c",&Norte);
+    if (Norte==Norte){
+        printf("excelente dia para viajar a esta zona!! Ahora selecciona las rutas disponibles para esta zona: B10,B11,B3, o B6 ");
+    }
+    
+    scanf("%c",&B10);
+    if (B10){
+            printf("Esta ruta funciona solo los días festivos");
+        
+    }
+
+    return 0;
+}
