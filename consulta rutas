@@ -1,0 +1,45 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int ruta;
+    int zona;
+    printf("Bienvenido a bordo...\n ");
+    printf("Escoge la zona donde deseas ir hoy:  \n1-Norte \n2-Sur\n ");
+    scanf("%d",&zona);
+    if (zona==1){
+        printf("las rutas disponibles para esta zona son: \n1.B10 \n2.B11 \n3.B4\n");
+        printf("¿Cual ruta deseas tomar? 1, 2 o 3...\n");
+        scanf("%d",&ruta);
+    }
+    if (ruta==1){
+        printf("Paradas: \ncalle 100 \ntoberin \nportal norte");
+    }
+    if (ruta==2){
+        printf("Paradas: \ncalle heroes \nalcala \npepe sierra");
+    }
+    
+    if (zona==2){
+        printf("las rutas disponibles para esta zona son: \n1.C10 \n2.C11 \n3.C4\n");
+        printf("¿Cual ruta deseas tomar? 1, 2 o 3...\n");
+        scanf("%d",&ruta);
+    }
+    if (ruta==1){
+        printf("Paradas: \ncalle 6 \nmarly \ncentro ");
+    }
+    if (ruta==2){
+        printf("Paradas: \nuniversidades \njimenez \nportal sur");
+    }
+    
+    else{ 
+            printf("seleccionaste la ruta C4 que opera solo los festivos");
+    
+    }
+    
+    
+    return 0;   
+    
+    
+
+}
