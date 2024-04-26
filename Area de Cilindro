@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+
+{
+    float radio,altura,area;
+    float pi=3.14;
+    printf("Bienvenido a tu calculador de areas.\nEl día de hoy calcularemos el area de un cilindro. :D\n");
+    printf("ingresa por favor los siquientes datos: \nAltura: \n ");
+    scanf("%f",&altura);
+    printf(" \nRadio: \n ");
+    scanf("%f",&radio);
+
+
+    area = (2*pi*radio*radio+2*pi*radio*altura);
+    printf("el area del cilindro es =  %f",area);
